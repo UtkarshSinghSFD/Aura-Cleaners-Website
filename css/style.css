@@ -208,13 +208,15 @@ header {
     width: 100%;
     z-index: 1000;
     transition: var(--transition-smooth);
-    padding: 10px 0;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    box-shadow: var(--shadow-sm);
+    padding: 20px 0;
+    background: transparent;
+    box-shadow: none;
 }
 
 header.scrolled {
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
     box-shadow: var(--shadow-md);
 }
 
