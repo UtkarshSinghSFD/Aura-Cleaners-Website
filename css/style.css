@@ -208,9 +208,9 @@ header {
     width: 100%;
     z-index: 1000;
     transition: var(--transition-smooth);
-    padding: 20px 0;
+    padding: 5px 0;
     background: #ffffff;
-    box-shadow: var(--shadow-sm);
+    box-shadow: none;
 }
 
 header.scrolled {
