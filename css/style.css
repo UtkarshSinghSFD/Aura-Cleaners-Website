@@ -208,13 +208,13 @@ header {
     width: 100%;
     z-index: 1000;
     transition: var(--transition-smooth);
-    padding: 5px 0;
+    padding: 0;
     background: #ffffff;
     box-shadow: none;
 }
 
 header.scrolled {
-    padding: 10px 0;
+    padding: 0;
     box-shadow: var(--shadow-md);
 }
 
@@ -239,7 +239,7 @@ header.scrolled .logo-text {
 }
 
 .logo img {
-    height: 110px;
+    height: 70px;
     width: auto;
     object-fit: contain;
 }
